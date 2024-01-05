@@ -1,0 +1,245 @@
+/* Write your CSS here */
+.main-background-container {
+  min-height: 100vh;
+  background-color: #f9faff;
+
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  background-image: linear-gradient(to right, #f9faff 42.7%, #fdc435 20%);
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+.nav-head {
+  font-size: 16px;
+  color: blueviolet;
+}
+.nav-anchor-ele {
+  font-size: medium;
+  color:black;
+ text-decoration: none;
+}
+.nav-anchor-container {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 68%;
+  
+  font-size: large;
+  font-weight: 600;
+  max-width: 400px;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.website-banner-logo {
+  width: 67.9%;
+  align-self: flex-end;
+  margin-top: -10px;
+}
+.name-description-container {
+  width: 80%;
+  margin-top: -25px;
+}
+.about-page-name-title {
+  color: #f8b201;
+  font-size: 15px;
+}
+.about-container-name {
+  font-family: 'Gill Sans', sans-serif;
+}
+
+.project-btn {
+  font-weight: bold;
+  font-family: 'roboto';
+  background-color: #fdc435;
+  border-radius: 8px;
+  border: transparent;
+  outline: none;
+  padding: 8px 24px;
+
+}
+.project-btn:hover{
+    border: 2px solid blueviolet;
+}
+.linked-btn {
+  margin-left: 13px;
+  background-color: transparent;
+  border: 2px solid rgb(34, 34, 34);
+  padding: 5px 20px;
+  color: rgb(34, 34, 34);
+  font-family: 'roboto';
+  font-weight: bold;
+  border-radius: 8px;
+}
+.add-project-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.hr {
+  width: 20%;
+  margin-top: -15px;
+  margin-bottom: 20px;
+  border: 1.5px solid #fdc435;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.project-label {
+  align-self: flex-start;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 5px;
+  width: 90%;
+  color:rgba(71, 71, 71, 0.712));
+  align-self: center;
+}
+.project-input {
+  width: 90%;
+  padding: 6px;
+  font-family: "roboto";
+  font-size: medium;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background-color: #ffffff;
+  /* box-shadow: rgba(3, 17, 2, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; */
+  margin-top: 10px;
+   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.project-label-link {
+  margin-top: 12px;
+}
+.project-description{
+    min-height: 100px;
+    margin-bottom: 8px;
+}
+.project-add-btn-container{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+  } 
+.project-add-btn{
+    background-color: #fdc435;
+    font-weight: bold;
+    outline: none;
+    margin-top:40px;
+    padding: 6px 23px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: large;
+}
+.wave-logo{
+    height: 50px;
+    width: 100%;
+}
+.wave-logo-last{
+    width: 100%;
+    height: 60px;
+    margin-bottom: -5px;
+}
+.err-msg{
+    color: red;
+    width: 90%;
+    }
+@media (min-width: 600px) {
+  .nav-anchor-container {
+    width: 40%;
+  }
+}
+
+@media (min-width: 900px) {
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+    height: 14vh;
+    background-image: linear-gradient(to right, #ffff 57.7%, #fdc435 20%);
+  }
+  .nav-container {
+    width: 90%;
+  }
+  .nav-head {
+    font-size: 25px;
+    color: blueviolet;
+  }
+  .nav-anchor-container {
+    justify-content: space-around;
+    width: 30%;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .website-banner-logo {
+    width: 50%;
+    order: 1;
+  }
+  .name-description-container {
+    width: 45%;
+    margin-top: 30px;
+    padding-right: 100px;
+    align-self: flex-start;
+  }
+  .about-page-name-title {
+    font-size: medium;
+  }
+  .about-name {
+    font-size: 45px;
+    width: 75%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .about-description {
+    color: gray;
+    font-size: larger;
+    margin-top: -15px;
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  .hr {
+    width: 60px;
+    border: 2px solid #fdc435;
+    transition: initial;
+    text-decoration: 2;
+  }
+  hr:hover{
+      width: 100px;
+  }
+  .wave-logo{
+    height: 90px;
+    width: 100%;
+}
+  .project-label{
+      width: 40%;
+  }
+  .project-input{
+      width: 40%;
+  }
+  .err-msg{
+    color: red;
+    width: 40%;
+    }
+  .project-add-btn-container{
+    width: 40%;
+  }
+  .add-project-container{
+      margin-top: -30px;
+  }
+}
+

@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.contact-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.instagram {
+  margin: 5px;
+  width: 35px;
+}
+.linked-in {
+  width: 30px;
+  margin: 5px;
+}
+.mail {
+  margin: 6px;
+  width: 35px;
+}
+.copy-right {
+  color: #484848;
+}

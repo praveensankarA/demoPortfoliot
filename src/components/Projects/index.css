@@ -1,0 +1,100 @@
+/* Write your CSS here */
+.project-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+.project-list-container {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list-ele {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  width: 90%;
+  border-radius: 15px;
+  min-height: 200px;
+}
+.project-logo {
+  width: 100%;
+  /* border-radius: 15px; */
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.project-logo-toggle {
+  width: 100%;
+  /* border-radius: 15px; */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.project-details-container {
+  padding: 10px;
+  order: 1;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.project-head {
+  font-weight: bold;
+  margin: 0px;
+}
+.project-description {
+  color: rgb(110, 109, 109);
+  font-weight: 500;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.view-project-btn {
+  background-color: transparent;
+  padding: 6px 10px;
+  border-radius: 15px;
+  width: 50%;
+  font-size: medium;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 600px) {
+  .list-ele {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .project-logo {
+    width: 90%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 0px;
+    width: 300px;
+    align-self: flex-end;
+  }
+  .project-details-container {
+    padding: 30px;
+    order: 0;
+  }
+
+  .view-project-btn {
+    border: 2px solid rgb(88, 86, 86);
+    font-family: 'roboto';
+    font-weight: 700;
+    width: 150px;
+  }
+  .project-logo-toggle {
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 0px;
+    order: -1;
+  }
+}
